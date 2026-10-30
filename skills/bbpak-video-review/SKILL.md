@@ -32,4 +32,6 @@ description: Review generated images, video clips, and audio against BBPAK's app
 
 무음 자동 제거로 의도된 쉼·호흡·효과음 간격이 사라질 수 있으므로 구간을 확인하고 처리한다. 볼륨 수치나 무음 검출만으로 자연스러움을 판단하지 않는다.
 
+대사·생활음·한숨·문자·최종 편집을 다룰 때는 [음향과 마무리](references/audio-and-finishing.md)를 읽는다. 계획 시각과 실제 시각을 나누어 소리 배치표를 만들고, 화면·음향·문자·컷 연결의 상태를 각각 기록한다. 실제 내보낸 파일까지 확인하기 전에는 편집 완료와 검수 완료를 구분한다.
+
 [검수 기록](references/review-format.md)으로 결과를 제공한다. 실제 확인 범위를 명시하고, 사용자가 승인하지 않은 결과를 최종 승인으로 표시하지 않는다.
