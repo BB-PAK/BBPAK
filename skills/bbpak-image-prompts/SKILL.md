@@ -1,0 +1,31 @@
+---
+name: bbpak-image-prompts
+description: Write or revise a single-scene AI image prompt in Korean or English from BBPAK's approved script and actual reference images. Use for character consistency, cinematic animation stills, storyboard frames, scene images, reference-role mapping, or fixing one visual defect while preserving the approved style. Do not invent missing reference images or generate an unrequested collage.
+---
+
+# 비비팍 이미지 프롬프트
+
+확정 장면을 실제 이미지 참조와 연결해 복사 가능한 프롬프트를 작성한다. 프롬프트 작성과 실제 이미지 생성을 구분한다.
+
+## 입력을 확인한다
+
+프로젝트·CLIP, 확정 시나리오 해당 구간, 화면 비율, 실제 참조 파일, 요청한 수정 범위를 확인한다. 이미 전달된 값은 다시 묻지 않는다. 참조 파일을 볼 수 없으면 `참조 미확인`으로 표시하며, 텍스트만으로 캐릭터 일치를 보장하지 않는다.
+
+## 참조 역할을 나눈다
+
+- 캐릭터: 얼굴·체형·헤어·연령 표현·의상.
+- 화풍: 명암·색·선·질감·심도.
+- 공간: 배치·소품·시간대·광원.
+- 구도: 카메라 위치와 화면 안 요소 관계. 다른 참조의 얼굴까지 덮어쓰지 않는다.
+
+반실사 애니메이션을 요청했다면 실사 피부 모공을 임의로 강조하지 않는다. 낮 장면에 분위기만을 이유로 밤 조명을 적용하지 않는다. 프로젝트가 다른 화풍을 정했다면 그 기준을 따른다.
+
+## 프롬프트를 작성한다
+
+[출력 양식](references/prompt-format.md)을 사용한다. 화면에서 직접 보일 요소를 구체적으로 적고, 모순되는 카메라·조명 지시를 제거한다. 소품 개수와 위치는 확정 정보만 쓴다.
+
+독립된 단일 장면 이미지가 기본이다. 분할 화면·콜라주·말풍선·UI·문자를 임의로 추가하지 않는다. 후반 편집하기로 한 메시지는 원본 이미지에 넣지 않는다. 스토리보드 시트 요청처럼 사용자가 명시적으로 다른 형식을 지정하면 그 요청을 따른다.
+
+수정 요청이면 기존 프롬프트와 실제 결과를 대조하고 바꾼 부분만 설명한다. 전체 시나리오와 스타일을 다시 설계하지 않는다.
+
+자료가 빠진 경우 독립적으로 작성 가능한 문장과 `[확인 필요]`를 구분한 초안을 제공한다. 대괄호가 남은 초안을 최종 실행용으로 표시하지 않는다. 실제 생성은 사용자가 요청했고 도구·비용 범위가 확보된 경우에만 진행한다.
