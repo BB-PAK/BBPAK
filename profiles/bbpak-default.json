@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "project_title": "프로젝트 제목을 입력하세요",
+  "source": "비비팍 제작 방식에 맞춘 공개용 기본 기준. 실제 프로젝트의 최신 확정본을 우선 적용합니다.",
+  "script_status": "missing_source",
+  "total_duration_seconds": null,
+  "aspect_ratio": null,
+  "working_rules": [
+    "확정 시나리오·대사·캐릭터·화풍을 보존하고 요청한 범위만 변경",
+    "실제 마스터 화풍 이미지·캐릭터 시트·공간 참조 확인",
+    "낮과 밤, 의상, 소품 수, 인물 관계, 동작의 연속성 유지",
+    "독립된 단일 장면 이미지가 기본이며 콜라주·말풍선·임의 UI는 명시적 요청이 있을 때만 사용",
+    "화면 문구와 메시지는 생성 또는 후반 편집 여부를 별도 지정",
+    "자연스러운 생활음과 의도된 침묵·호흡을 보존",
+    "필요한 부분부터 수정해 불필요한 재생성 비용을 줄임"
+  ],
+  "clips": [],
+  "references": [
+    {"id": "master-style", "role": "화풍", "uri": null, "status": "unverified"},
+    {"id": "character-main", "role": "주인공 캐릭터 시트", "uri": null, "status": "unverified"},
+    {"id": "environment-main", "role": "주요 공간", "uri": null, "status": "unverified"}
+  ]
+}
