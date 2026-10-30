@@ -1,0 +1,4 @@
+interface:
+  display_name: "비비팍 Seedance 프롬프트"
+  short_description: "확정 장면의 시간과 동작을 지키는 복사 가능한 영상 프롬프트 작성"
+  default_prompt: "$bbpak-seedance-prompts 스킬로 현재 프로젝트의 요청한 작업을 진행해 주세요."
