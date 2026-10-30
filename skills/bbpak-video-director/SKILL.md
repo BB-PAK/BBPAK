@@ -25,6 +25,8 @@ description: Plan and continue BBPAK's AI video production in Korean while prese
 
 현재 저장소를 함께 사용하는 경우 이미지 작업은 `bbpak-image-prompts`, 영상 작업은 `bbpak-seedance-prompts`, 검수는 `bbpak-video-review`를 참고한다. 별도 스킬이 없더라도 여기의 보존 원칙과 [작업 기록](references/work-record.md)에 따라 준비 작업을 계속할 수 있다.
 
+한 편 제작이나 제작 방식 개선 요청에는 [한 컷 완성에서 한 편 완성까지](references/production-loop.md)를 읽는다. 기존 결과 중 활용할 수 있는 것을 먼저 찾고 한 CLIP의 화면·음향·후반 편집을 끝까지 검증한 뒤 적용 범위를 넓힌다. 도구 설치와 자동화 구축을 첫 완성본보다 먼저 추진하지 않는다.
+
 ## 파일 관리
 
 저장소가 있으면 `scripts/new_project.py`의 도움말을 확인해 프로젝트 폴더를 만든다. 스킬 단독 사용 환경에 해당 스크립트가 없으면 실행했다고 주장하지 않고 같은 구조의 작업 기록을 작성한다.
