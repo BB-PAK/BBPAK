@@ -1,0 +1,4 @@
+interface:
+  display_name: "비비팍 이미지 프롬프트"
+  short_description: "캐릭터와 화풍 참조를 연결해 독립된 장면 이미지 프롬프트 작성"
+  default_prompt: "$bbpak-image-prompts 스킬로 현재 프로젝트의 요청한 작업을 진행해 주세요."
