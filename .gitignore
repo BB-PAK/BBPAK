@@ -1,0 +1,30 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+
+# User projects and generated media stay local by default
+projects/
+outputs/
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.mp3
+*.wav
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.zip
+
+# Python and editor files
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+.idea/
+.vscode/
