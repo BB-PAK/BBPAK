@@ -17,6 +17,8 @@
 
 ## 처음 사용하는 방법
 
+**지금 제작을 시작하려면 [한 컷부터 완성하는 실행 가이드](docs/start-here.md)를 먼저 읽으세요.** 준비 자료 → 한 CLIP 완성 → 한 편 연결 → 다음 작품에 남길 기록 순서로 진행합니다.
+
 1. 먼저 [기본 제작 기준](profiles/bbpak-default.json)을 확인합니다. 프로젝트마다 실제 확정 기준을 연결해 사용합니다.
 2. 현재 작업에 맞는 `SKILL.md`와 프로젝트 기준을 파일을 읽을 수 있는 AI 작업 환경에 제공합니다. 저장소 링크만 전달했을 때 AI가 비공개 파일까지 읽을 수 있는지는 해당 환경의 권한에 달려 있습니다.
 3. 승인된 시나리오 원문과 실제 캐릭터·화풍 참조 이미지를 함께 제공합니다. 파일이 없으면 AI는 누락을 표시하고, 완성 프롬프트로 가장하지 않습니다.
@@ -63,5 +65,14 @@ python -m unittest discover -s tests -v
 ```
 
 세부 사용법은 [docs/usage.md](docs/usage.md), 기준 변경 방법은 [docs/change-policy.md](docs/change-policy.md)를 참고하세요.
+
+## 선별해 보강한 제작 기준
+
+- [제작 순환](skills/bbpak-video-director/references/production-loop.md): 기존 결과에서 이어가기, 한 컷 완성, 수정 변수와 실제 비용 기록.
+- [컷 연출](skills/bbpak-seedance-prompts/references/directing-patterns.md): 드라마·반실사 애니메이션·브랜드·제품 장면의 연기와 카메라 선택.
+- [작업 방식과 연속성](skills/bbpak-seedance-prompts/references/modes-and-continuity.md): 새 생성·연장·국소 수정 선택, 실제 서비스 설정 확인, 컷 사이 상태 유지.
+- [음향과 마무리](skills/bbpak-video-review/references/audio-and-finishing.md): 소리 배치표, 자연스러운 호흡, 후반 문자, 실제 출력 파일 검수.
+
+첨부자료의 15개 장르 전문을 복제한 구성은 아닙니다. 필요한 원리를 한국어로 새로 정리했으며, 모든 장면에 2초 훅·실사 피부·고정 길이·화려한 전환을 강제하지 않습니다. 이 보강은 제작 지침이며 새로운 영상·음향 생성 API나 자동 편집기를 추가한 것은 아닙니다.
 
 프로필 작성법은 [docs/profile-format.md](docs/profile-format.md), 원본에서 선별한 구조는 [docs/adaptation.md](docs/adaptation.md)에 정리했습니다.
