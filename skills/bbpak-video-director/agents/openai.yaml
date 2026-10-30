@@ -1,0 +1,4 @@
+interface:
+  display_name: "비비팍 영상 제작"
+  short_description: "확정한 이야기와 캐릭터를 보존하는 영상 제작 순서와 작업 관리"
+  default_prompt: "$bbpak-video-director 스킬로 현재 프로젝트의 요청한 작업을 진행해 주세요."
