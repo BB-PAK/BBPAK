@@ -22,6 +22,8 @@ description: Create or revise a copy-ready Seedance video prompt from approved i
 
 상세 양식은 [영상 프롬프트 형식](references/video-format.md)을 따른다.
 
+연기·카메라·컷 구성이 필요하면 [장면별 연출 기준](references/directing-patterns.md)을 읽는다. 새 생성·연장·국소 수정 중 작업 방식을 고르거나 여러 컷을 연결할 때는 [작업 방식과 연속성](references/modes-and-continuity.md)을 읽는다. 필요한 자료만 읽고, 다른 장르의 기본값을 현재 작품에 자동 적용하지 않는다.
+
 ## 연출 원칙
 
 - 요청한 행동을 중심으로 실현 가능한 작은 동작을 지정한다. 짧은 CLIP에 불필요한 사건·카메라 이동을 쌓지 않는다.
